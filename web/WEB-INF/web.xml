@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>Index</servlet-name>
+        <servlet-class>web.Index</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Index</servlet-name>
+        <url-pattern>/Index</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AccountServlet</servlet-name>
+        <servlet-class>servlet.AccountServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AccountServlet</servlet-name>
+        <url-pattern>/AccountServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>servlet.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ModifyServlet</servlet-name>
+        <servlet-class>servlet.ModifyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModifyServlet</servlet-name>
+        <url-pattern>/ModifyServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <servlet>
+        <servlet-name>CatalogueServlet</servlet-name>
+        <servlet-class>servlet.CatalogueServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CatalogueServlet</servlet-name>
+        <url-pattern>/CatalogueServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ProductServlet</servlet-name>
+        <servlet-class>servlet.ProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProductServlet</servlet-name>
+        <url-pattern>/ProductServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SubclassServlet</servlet-name>
+        <servlet-class>servlet.SubclassServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SubclassServlet</servlet-name>
+        <url-pattern>/SubclassServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchServlet</servlet-name>
+        <servlet-class>servlet.SearchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchServlet</servlet-name>
+        <url-pattern>/SearchServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddCartServlet</servlet-name>
+        <servlet-class>servlet.AddCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCartServlet</servlet-name>
+        <url-pattern>/AddCartServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteCartServlet</servlet-name>
+        <servlet-class>servlet.DeleteCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteCartServlet</servlet-name>
+        <url-pattern>/DeleteCartServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CartServlet</servlet-name>
+        <servlet-class>servlet.CartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CartServlet</servlet-name>
+        <url-pattern>/CartServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckoutServlet</servlet-name>
+        <servlet-class>servlet.CheckoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckoutServlet</servlet-name>
+        <url-pattern>/CheckoutServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OrderServlet</servlet-name>
+        <servlet-class>servlet.OrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderServlet</servlet-name>
+        <url-pattern>/OrderServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OrderTrackServlet</servlet-name>
+        <servlet-class>servlet.OrderTrackServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderTrackServlet</servlet-name>
+        <url-pattern>/OrderTrackServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OrderRefundServlet</servlet-name>
+        <servlet-class>servlet.OrderRefundServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderRefundServlet</servlet-name>
+        <url-pattern>/OrderRefundServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OrderReceiveServlet</servlet-name>
+        <servlet-class>servlet.OrderReceiveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderReceiveServlet</servlet-name>
+        <url-pattern>/OrderReceiveServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>web.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>web.Register</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Account</servlet-name>
+        <servlet-class>web.Account</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Account</servlet-name>
+        <url-pattern>/Account</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Cart</servlet-name>
+        <servlet-class>web.Cart</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Cart</servlet-name>
+        <url-pattern>/Cart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Order</servlet-name>
+        <servlet-class>web.Order</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Order</servlet-name>
+        <url-pattern>/Order</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OrderTrack</servlet-name>
+        <servlet-class>web.OrderTrack</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderTrack</servlet-name>
+        <url-pattern>/OrderTrack</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Catalogue</servlet-name>
+        <servlet-class>web.Catalogue</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Catalogue</servlet-name>
+        <url-pattern>/Catalogue</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Product</servlet-name>
+        <servlet-class>web.Product</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Product</servlet-name>
+        <url-pattern>/Product</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Test</servlet-name>
+        <servlet-class>servlet.TestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Test</servlet-name>
+        <url-pattern>/Test</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Test1</servlet-name>
+        <servlet-class></servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Test1</servlet-name>
+        <url-pattern>/Test1</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
